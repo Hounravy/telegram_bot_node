@@ -4,7 +4,7 @@ const TOKEN = '6964707753:AAH64f7AB0kqvs1HmJfn8RPM8vZXBVtw-eU';
 const bot = new Telegraf(TOKEN);
 
 const mainMenu = () => {
-  return Markup.inlineKeyboard([
+  return Markup.inlineKeyboard([ 
     [
       Markup.button.callback('日漫 - Japanese Comics', 'japanese'),
       Markup.button.callback('韩漫 - Korean Comics', 'korean'),
