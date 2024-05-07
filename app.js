@@ -15,7 +15,7 @@ const mainMenu = () => {
     ],
     [Markup.button.callback('Menu & Command', 'mCommand')],
   ]);
-};
+}; 
 
 bot.start((ctx) => {
   return ctx.reply('Welcome to TG comics 🙏!! Please choose a comics category below:', mainMenu());
