@@ -1,6 +1,6 @@
 const { Telegraf, Markup } = require('telegraf');
 
-const TOKEN = '6964707753:AAH64f7AB0kqvs1HmJfn8RPM8vZXBVtw-eU';
+const TOKEN = bot_token;
 const bot = new Telegraf(TOKEN);
 
 const mainMenu = () => {
